@@ -1,5 +1,6 @@
 
 
+import {Link} from "react-router-dom"
 
 function Header() {
   return (
@@ -10,16 +11,17 @@ function Header() {
       </h1>
 
       <ul className="flex gap-8">
+
         <li className="hover:text-cyan-400 cursor-pointer">
-          <Link to="/">Home</Link>
+          <Link to="/Homepage">Home</Link>
         </li>
 
         <li className="hover:text-cyan-400 cursor-pointer">
-          <Link to="/projects">Projects</Link>
+          <Link to="/Aboutpage">About</Link>                                                              
         </li>
 
         <li className="hover:text-cyan-400 cursor-pointer">
-          <Link to="/contact">Contact</Link>
+          <Link to="/Contactpage">Contact</Link>
         </li>
       </ul>
 
