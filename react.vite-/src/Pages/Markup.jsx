@@ -1,9 +1,9 @@
 
 import {browserRouter, Routes,Route, Link} from "react-router-dom";
-import Layout from "./Components/Layout";
-import Homepage from "./Pages/Homepage";
-import Aboutpage from "./Pages/Aboutpage";
-import Contactpage from "./Pages/Contactpage";
+import Layout from "../Components/Layout";
+import Homepage from "./Homepage";
+import Aboutpage from "./Aboutpage";
+import Contactpage from "./Contactpage";
 
 function Markup() {
     return(

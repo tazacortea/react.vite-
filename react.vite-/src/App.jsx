@@ -3,10 +3,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import Header from './Components/Header'
-import Footer from './Components/Footer'
-import HomePage from './Pages/Homepage'
-import AboutPage from './Pages/Aboutpage'
+import Markup from './Pages/Markup'
 
 
 
@@ -16,11 +13,8 @@ function App() {
   return (
     <>
 
-      <Header />
-      <HomePage />
-      <AboutPage />
-      <Footer />
-
+      
+      <Markup />
     </>
   )
 }
