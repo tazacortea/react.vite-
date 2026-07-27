@@ -3,10 +3,10 @@
 import { useState } from 'react'
 
 import './App.css'
-import Header from './Header'
-import Footer from './Footer'
-import HomePage from './Homepage'
-import AboutPage from './Aboutpage'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
+import HomePage from './Pages/Homepage'
+import AboutPage from './Pages/Aboutpage'
 
 
 

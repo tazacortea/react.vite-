@@ -11,15 +11,15 @@ function Header() {
 
       <ul className="flex gap-8">
         <li className="hover:text-cyan-400 cursor-pointer">
-          Home
+          <Link to="/">Home</Link>
         </li>
 
         <li className="hover:text-cyan-400 cursor-pointer">
-          Projects
+          <Link to="/projects">Projects</Link>
         </li>
 
         <li className="hover:text-cyan-400 cursor-pointer">
-          Contact
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 

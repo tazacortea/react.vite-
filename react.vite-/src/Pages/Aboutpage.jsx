@@ -1,6 +1,8 @@
 
+
 function AboutPage() {
   return (
+    
     <main className="bg-slate-950 text-white">
 
       {/* Hero Section */}
@@ -41,7 +43,7 @@ function AboutPage() {
             <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-cyan-400 shadow-2xl">
 
               <img
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800"
+                src=""
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -166,6 +168,7 @@ function AboutPage() {
       </section>
 
     </main>
+
   );
 }
 
