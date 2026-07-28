@@ -1,5 +1,5 @@
 
-function HomePage() {
+function Homepage() {
   return (
     <>
     <section className="min-h-[80vh] flex flex-col justify-center items-center bg-gradient-to-r from-slate-900 to-slate-700 text-white px-6">
@@ -65,4 +65,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Homepage;

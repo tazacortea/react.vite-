@@ -14,7 +14,7 @@ function AboutPage() {
           <div className="flex-1">
 
             <span className="text-cyan-400 uppercase tracking-widest">
-              About Me
+              About Me 
             </span>
 
             <h1 className="text-5xl md:text-6xl font-bold mt-4 leading-tight">
